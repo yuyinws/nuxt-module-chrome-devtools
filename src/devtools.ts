@@ -70,7 +70,7 @@ export async function setupDevToolsUI(nuxt: Nuxt, resolver: Resolver) {
   nuxt.hook('devtools:customTabs', (tabs) => {
     tabs.push({
       // unique identifier
-      name: 'chrome-devtools-embedded',
+      name: 'nuxt-module-chrome-devtools',
       // title to display in the tab
       title: 'Chrome Devtools',
       // any icon from Iconify, or a URL to an image
