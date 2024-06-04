@@ -1,6 +1,23 @@
 # Changelog
 
 
+## v0.0.5
+
+[compare changes](https://github.com/yuyinws/chrome-devtools-embedded/compare/v0.0.4...v0.0.5)
+
+### 🩹 Fixes
+
+- Devtools tab name ([5b3f131](https://github.com/yuyinws/chrome-devtools-embedded/commit/5b3f131))
+
+### 🏡 Chore
+
+- Update docs ([43b51fd](https://github.com/yuyinws/chrome-devtools-embedded/commit/43b51fd))
+- Update docs ([28375b7](https://github.com/yuyinws/chrome-devtools-embedded/commit/28375b7))
+
+### ❤️ Contributors
+
+- Yuyinws <lyc657508366@gmail.com>
+
 ## v0.0.4
 
 [compare changes](https://github.com/yuyinws/chrome-devtools-embedded/compare/v0.0.3...v0.0.4)
