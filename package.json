@@ -1,8 +1,8 @@
 {
-  "name": "@chrome-devtools-embedded/nuxt",
+  "name": "nuxt-module-chrome-devtools",
   "type": "module",
   "version": "0.0.2",
-  "description": "My new Nuxt module",
+  "description": "Integrating Chrome devtools into Nuxt devtools",
   "license": "MIT",
   "exports": {
     ".": {
