@@ -1,0 +1,31 @@
+import { createResolver, defineNuxtModule } from '@nuxt/kit'
+import { setupDevToolsUI } from './devtools'
+
+// Module options TypeScript interface definition
+export interface ModuleOptions {
+  /**
+   * Enable Nuxt Devtools integration
+   *
+   * @default true
+   */
+  devtools: boolean
+}
+
+export default defineNuxtModule<ModuleOptions>({
+  meta: {
+    name: 'my-module',
+    configKey: 'myModule',
+  },
+  // Default configuration options of the Nuxt module
+  defaults: {
+    devtools: true,
+  },
+  setup(options, nuxt) {
+    const resolver = createResolver(import.meta.url)
+
+    // Do not add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`
+
+    if (options.devtools)
+      setupDevToolsUI(nuxt, resolver)
+  },
+})
