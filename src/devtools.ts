@@ -55,7 +55,7 @@ export async function setupDevToolsUI(nuxt: Nuxt, resolver: Resolver) {
         const raw = await fetch(`http://localhost:${availablePort}/targets`)
         const data = await raw.json()
         if (data?.targets.length > 0) {
-          const devToolsUrl = `http://localhost:${availablePort}/front_end/chii_app.html?ws=localhost:${availablePort}/client/xxxxx?target=${data.targets[0].id}&rtc=false`
+          const devToolsUrl = `http://localhost:${availablePort}/front_end/chii_app.html?ws=localhost:${availablePort}/client/${Math.random().toString(20).substring(2, 8)}?target=${data.targets[0].id}&rtc=false`
 
           res.end(devToolsUrl)
         }
@@ -70,7 +70,7 @@ export async function setupDevToolsUI(nuxt: Nuxt, resolver: Resolver) {
   nuxt.hook('devtools:customTabs', (tabs) => {
     tabs.push({
       // unique identifier
-      name: 'chrome-devtools-embedded-nuxt',
+      name: 'chrome-devtools-embedded',
       // title to display in the tab
       title: 'Chrome Devtools',
       // any icon from Iconify, or a URL to an image
