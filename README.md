@@ -66,7 +66,14 @@ npm run test:watch
 npm run release
 ```
 
+## Credits
+
+Inspired by [Solidjs Playground](https://playground.solidjs.com/)
+
+Powered By [liriliri/chii](https://github.com/liriliri/chii).
+
 <!-- Badges -->
+
 [npm-version-src]: https://img.shields.io/npm/v/nuxt-module-chrome-devtools/latest.svg?style=flat&colorA=18181B&colorB=28CF8D
 [npm-version-href]: https://npmjs.com/package/nuxt-module-chrome-devtools
 
