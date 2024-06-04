@@ -9,9 +9,12 @@ Chrome devtools integrated with the [Nuxt Devtools](https://github.com/nuxt/devt
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
 
+> [!NOTE]
+> This package is experimental and may may have some issues.
+
 ## Perview
 
-![Kapture 2024-06-04 at 20.17.16](https://cdn.jsdelivr.net/gh/yuyinws/static@master/2024/06/upgit_20240604_1717506619.gif)
+![Preview](https://cdn.jsdelivr.net/gh/yuyinws/static@master/2024/06/upgit_20240604_1717506619.gif)
 
 ## Quick Setup
 
